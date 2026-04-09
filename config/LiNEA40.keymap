@@ -62,7 +62,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,
+            //スクロール方向を逆転,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -165,10 +165,10 @@
 
         CURSOR {
             bindings = <
-&trans          &kp F7  &kp F8  &kp F9  &kp F10                    &trans        &trans              &kp UP_ARROW     &trans               &trans
-&trans          &kp F4  &kp F5  &kp F6  &kp F11                    &kp LS(HOME)  &kp LEFT_ARROW      &kp DOWN         &kp RIGHT_ARROW      &kp LS(END)
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12                    &kp HOME      &kp LA(LEFT_ARROW)  &kp LA(LC(TAB))  &kp LA(RIGHT_ARROW)  &kp END
-&trans          &trans  &trans  &trans  &trans   &trans    &trans  &trans                            &trans           &trans               &trans
+&trans          &kp F7  &kp F8  &kp F9  &kp F10                                   &trans        &trans              &kp UP_ARROW     &trans               &trans
+&trans          &kp F4  &kp F5  &kp F6  &kp F11                                   &kp LS(HOME)  &kp LEFT_ARROW      &kp DOWN         &kp RIGHT_ARROW      &kp LS(END)
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12                                   &kp HOME      &kp LA(LEFT_ARROW)  &kp LA(LC(TAB))  &kp LA(RIGHT_ARROW)  &kp END
+&trans          &trans  &trans  &trans  &kp LANGUAGE_2  &kp LANGUAGE_1    &trans  &trans                            &trans           &trans               &trans
             >;
         };
 
