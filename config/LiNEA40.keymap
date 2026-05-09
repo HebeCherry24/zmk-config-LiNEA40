@@ -62,7 +62,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -152,10 +152,10 @@
 
         NUM {
             bindings = <
-&kp LC(Q)                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                        &trans     &trans     &trans     &kp LANGUAGE_1  &lt 4 P
-&kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK                    &kp LA(H)  &kp LA(J)  &kp LA(K)  &kp LA(L)       &trans
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                      &trans     &trans     &trans     &kp LEFT_ALT    &kp LEFT_SHIFT
-&trans                   &trans        &trans        &trans        &trans        &trans    &trans  &trans                &trans     &trans          &trans
+&kp LC(Q)                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                        &trans         &trans         &trans         &kp LANGUAGE_1  &lt 4 P
+&kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK                    &kp LC(LS(H))  &kp LS(LC(J))  &kp LS(LC(K))  &kp LS(LC(L))   &trans
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD                      &trans         &trans         &trans         &kp LEFT_ALT    &kp LEFT_SHIFT
+&trans                   &trans        &trans        &trans        &trans        &trans    &trans  &trans                        &trans         &trans          &trans
             >;
 
             sensor-bindings = <&re_kp C_VOLUME_DOWN C_VOLUME_UP>;
